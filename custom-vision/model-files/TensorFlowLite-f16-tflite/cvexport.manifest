@@ -1,0 +1,13 @@
+{
+  "DomainType": "Classification",
+  "Platform": "TensorFlow",
+  "Flavor": "TensorFlowLiteFloat16",
+  "ExporterVersion": "2.0",
+  "ExportedDate": "2024-11-20T04:05:14.031173Z",
+  "IterationId": "70c132af-f220-46bf-96c0-c2c726c79655",
+  "ModelFileName": "model.tflite",
+  "LabelFileName": "labels.txt",
+  "MetadataPropsFileName": "metadata_properties.json",
+  "ModelFileSHA1": "b159586c6f42cb8c04eab7b002758c619949e5c1",
+  "SchemaVersion": "1.0"
+}

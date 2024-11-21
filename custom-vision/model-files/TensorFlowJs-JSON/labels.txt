@@ -1,0 +1,11 @@
+cab
+convertible
+coupe
+hatchback
+minivan
+Negative
+sedan
+suv
+truck
+van
+wagon
