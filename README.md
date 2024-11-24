@@ -17,7 +17,7 @@
 
 ## Accuracy, Precision, Recall, and AP
 
-![General A1 Performance](../images/General-A1-Performance.png)
+![General A1 Performance](./images/General-A1-Performance.png)
 
 ## Model 02: Azure Custom Vision Endpoint with Azure CV General (compact) [S1]  Model
 
@@ -37,7 +37,7 @@
 
 ## Accuracy, Precision, Recall, and AP
 
-![General Compact S1 Performance](../images/General-compact-S1-Performance.png)
+![General Compact S1 Performance](./images/General-compact-S1-Performance.png)
 
 ## Model 03: Azure ML Endpoint with Google EfficientNet B1 Model (Also testetd MobileNet and ResNet-50. EfficientNet was the best performer.)
 
