@@ -47,7 +47,7 @@
 
 ## Confusion Matrix
 
-![Confusion Matrix (Deep)](./images/confusion-matrix-deep.png)
+![Confusion Matrix (Deep)](../images/confusion-matrix-deep.png)
 
 ---
 
@@ -86,6 +86,6 @@
 
 ## Confusion Matrix
 
-![Confusion Matrix (Deep, 20)](./images/confusion-matrix-deep-20.png)
+![Confusion Matrix (Deep, 20)](../images/confusion-matrix-deep-20.png)
 
 ---
