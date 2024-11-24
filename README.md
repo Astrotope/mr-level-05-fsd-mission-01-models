@@ -61,7 +61,7 @@
   - Google EfficientNet B1
     - Exportable to TF (PB), TFLite-fp16, TFlite-int8, TFJS [?]
     - Deployable using TensorFlow Serving, Azure ML (with FastAPI, and Docker wrapper).
-    - 'Negative' class included in training for Version 2. Version which is deployed dose not include the 'Negative' class.
+    - 'Negative' class included in training for Version 2. Version 1, which is currently deployed, dose not include the 'Negative' class.
     - Dataset imbalance handled during training using class weights.
     - Model validated on separate validation dataset.
 - Model Traiing and Validation
