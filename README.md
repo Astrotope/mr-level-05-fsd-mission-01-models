@@ -72,10 +72,16 @@
   - [Launch Notebook in Colab](https://colab.research.google.com/drive/15wRCjwO4vH2VlBnsFZ-5k4z196p5b6gV?usp=sharing)
 - Model Deployment
   - Wrapped in an API using FastAPI (Python)
-  - Containerized using Docker
+    - [FastAPI Wrapper (Python)](tf-keras-efficient-net/api.py)
+  - Containerized using Docker 
+    - [Dockerfile](tf-keras-efficient-net/Dockerfile)
+  - Build and Deploy Notes 
+    - [BUILD.txt](tf-keras-efficient-net/BUILD.txt)
   - Pushed to Azure Container Repository
     - Note: Azure ML Endpoint needs Pull Permission from Azure Container Repository. Set this up in Azure Portal - Azure Container Repository
-  - Deployed to Provisioned Azure ML Endpoint using Python Deployment Script [Azure Deploy Script](tf-keras-efficient-net/deploy-endpoint-ai-vehicle-id.py)
+  - Deployed to Provisioned Azure ML Endpoint using Python Deployment Script 
+    - [Sampel Provision Azure ML Endpoint Script](tf-keras-efficient-net/azure-create-ml-endpoint.py)
+    - [Azure Endpoint Deploy Script](tf-keras-efficient-net/deploy-endpoint-ai-vehicle-id.py)
 - Model Performance [MODEL_PERFORMANCE.md](tf-keras-efficient-net/MODEL_PERFORMANCE.md)
 
 ## Per-Category Statistics for the Model
