@@ -27,6 +27,7 @@
       - [Exported Models](custom-vision/model-files)
     - Deployable as Azure Custom Vision Endpoint, and in Python, Docker, Javascript, and on Android
     - 'Negative' class included in training.
+    - Trained on 200-400 images per class. Azure CV recommends 50+ per/class, no more than 2:1 ratio between largest class, and smallest class in terms of training images.
 - Model Traiing and Validation
   - Dataset Description [GitHub Repo - AI Vehicle Identification Datasets](https://github.com/Astrotope/mr-level-05-fsd-mission-01-datasets)
   - Dataset Archive [Google Drive - ai-vehicle-id-dataset.zip](https://drive.google.com/file/d/1o8ZxFqylNY37aoDljaFLhQDxv_iu9PdI/view?usp=drive_link)
@@ -39,6 +40,21 @@
 
 ![General Compact S1 Performance](./images/General-compact-S1-Performance.png)
 
+## Per Class Statistics
+
+| Class         | Accuracy (%) | Count (Correct/Total) |
+|---------------|--------------|------------------------|
+| Coupe         | 59.00%       | 59/100                |
+| Convertible   | 79.00%       | 79/100                |
+| Sedan         | 71.00%       | 71/100                |
+| Cab           | 86.00%       | 86/100                |
+| Van           | 98.00%       | 98/100                |
+| Hatchback     | 70.00%       | 70/100                |
+| SUV           | 81.00%       | 81/100                |
+| Wagon         | 78.00%       | 78/100                |
+| Minivan       | 93.00%       | 93/100                |
+
+
 ## Model 03: Azure ML Endpoint with Google EfficientNet B1 Model (Also testetd MobileNet and ResNet-50. EfficientNet was the best performer.)
 
 - Model Description:
@@ -46,6 +62,8 @@
     - Exportable to TF (PB), TFLite-fp16, TFlite-int8, TFJS [?]
     - Deployable using TensorFlow Serving, Azure ML (with FastAPI, and Docker wrapper).
     - 'Negative' class included in training.
+    - Dataset imbalance handled during training using class weights.
+    - Model validated on separate validation dataset.
 - Model Traiing and Validation
   - Dataset Description [GitHub Repo - AI Vehicle Identification Datasets](https://github.com/Astrotope/mr-level-05-fsd-mission-01-datasets)
   - Dataset Archive [Google Drive - ai-vehicle-id-dataset.zip](https://drive.google.com/file/d/1o8ZxFqylNY37aoDljaFLhQDxv_iu9PdI/view?usp=drive_link)
@@ -78,8 +96,6 @@
 | **Accuracy**   |           |        | 0.88     | 7726    |
 | **Macro Avg**  | 0.90      | 0.91   | 0.90     | 7726    |
 | **Weighted Avg** | 0.89    | 0.88   | 0.88     | 7726    |
-
-
 
 ## Confusion Matrix for Model
 
