@@ -12,7 +12,7 @@
 ## Recall
 ![Recall](../images/recall-per-epoch.png)
 
-# 30 Epochs of Transfer Learning, Plus 10 Epochs of Fine-Tuning
+# Plus 10 Epochs of Fine-Tuning
 
 ## Accuracy
 ![Accuracy (Deep)](../images/accuracy-per-epoch-deep.png)
@@ -45,9 +45,13 @@
 | **Macro Avg**  | 0.88      | 0.90   | 0.89     | 7726    |
 | **Weighted Avg** | 0.87    | 0.87   | 0.87     | 7726    |
 
+## Confusion Matrix
+
+![Confusion Matrix (Deep)](./images/confusion-matrix-deep.png)
+
 ---
 
-# 30 Epochs of Transfer Learning, Plus 20 Epochs of Fine-Tuning
+# Plus 10 More Epochs of Fine-Tuning
 
 ## Accuracy
 ![Accuracy (Deep, 20)](../images/accuracy-per-epoch-deep-20.png)
@@ -79,5 +83,9 @@
 | **Accuracy**   |           |        | 0.88     | 7726    |
 | **Macro Avg**  | 0.90      | 0.91   | 0.90     | 7726    |
 | **Weighted Avg** | 0.89    | 0.88   | 0.88     | 7726    |
+
+## Confusion Matrix
+
+![Confusion Matrix (Deep, 20)](./images/confusion-matrix-deep-20.png)
 
 ---
