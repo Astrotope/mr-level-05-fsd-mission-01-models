@@ -1,4 +1,31 @@
+# 30 Epochs Transfer Learning
+
+## Accuracy
+![Accuracy](../images/accuracy-per-epoch.png)
+
+## Loss
+![Loss](../images/loss-per-epoch.png)
+
+## Precision
+![Precision](../images/precision-per-epoch.png)
+
+## Recall
+![Recall](../images/recall-per-epoch.png)
+
 # 30 Epochs of Transfer Learning, Plus 10 Epochs of Fine-Tuning
+
+## Accuracy
+![Accuracy (Deep)](../images/accuracy-per-epoch-deep.png)
+
+## Loss
+![Loss (Deep)](../images/loss-per-epoch-deep.png)
+
+## Precision
+![Precision (Deep)](../images/precision-per-epoch-deep.png)
+
+## Recall
+![Recall (Deep)](../images/recall-per-epoch-deep.png)
+
 ## Per-Category Statistics for the Model
 
 | Category       | Precision | Recall | F1-Score | Support |
@@ -21,6 +48,19 @@
 ---
 
 # 30 Epochs of Transfer Learning, Plus 20 Epochs of Fine-Tuning
+
+## Accuracy
+![Accuracy (Deep, 20)](../images/accuracy-per-epoch-deep-20.png)
+
+## Loss
+![Loss (Deep, 20)](../images/loss-per-epoch-deep-20.png)
+
+## Precision
+![Precision (Deep, 20)](../images/precision-per-epoch-deep-20.png)
+
+## Recall
+![Recall (Deep, 20)](../images/recall-per-epoch-deep-20.png)
+
 ## Per-Category Statistics for the Model
 
 | Category       | Precision | Recall | F1-Score | Support |
