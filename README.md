@@ -80,7 +80,7 @@
   - Pushed to Azure Container Repository
     - Note: Azure ML Endpoint needs Pull Permission from Azure Container Repository. Set this up in Azure Portal - Azure Container Repository
   - Deployed to Provisioned Azure ML Endpoint using Python Deployment Script 
-    - [Sampel Provision Azure ML Endpoint Script](tf-keras-efficient-net/azure-create-ml-endpoint.py)
+    - [Sample Provision Azure ML Endpoint Script](tf-keras-efficient-net/azure-create-ml-endpoint.py)
     - [Azure Endpoint Deploy Script](tf-keras-efficient-net/deploy-endpoint-ai-vehicle-id.py)
 - Model Performance [MODEL_PERFORMANCE.md](tf-keras-efficient-net/MODEL_PERFORMANCE.md)
 
