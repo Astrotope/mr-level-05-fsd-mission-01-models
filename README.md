@@ -40,7 +40,7 @@
 
 ![General Compact S1 Performance](./images/General-compact-S1-Performance.png)
 
-## Per Class Statistics
+## Per Class Validation Statistics
 
 | Class         | Accuracy (%) | Count (Correct/Total) |
 |---------------|--------------|------------------------|
