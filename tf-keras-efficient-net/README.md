@@ -573,4 +573,4 @@ Check: endpoint ai-vehicle-id-202411260703 exists
 ```
 
 
-[![Deployed ML Endpoint Page in Azure](tf-keras-efficient-net/images/deployed_ml_endpoint.png)]
+[![Deployed ML Endpoint Page in Azure](images/deployed_ml_endpoint.png)]
