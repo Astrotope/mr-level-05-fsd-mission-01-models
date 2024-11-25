@@ -197,8 +197,7 @@ python-multipart
 ### Copy-in keras model
 
 ```bash
-cp /Users/cmcewing/Documents/mission_ready/level-05/mission-01/models
-/tf-keras-efficient-net/models/vehicle_classification_model_v005-
+cp /[source directory]/vehicle_classification_model_v005-
 efficient-net-adam-0.01-30-epochs-transfer-20-epochs-deep-
 negative-included.keras ai_id_vehicle.keras
 ```
