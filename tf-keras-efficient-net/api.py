@@ -97,7 +97,7 @@ async def predict(image: UploadFile):
         prediction = model.predict(prepared_image)
 
         # Assuming you have a list `category_tags` to map indices to categories
-        category_tags = ["cab", "convertible", "coupe", "hatchback", "minivan", "sedan", "suv", "truck", "van", "wagon"]
+        category_tags = ["Negative","cab", "convertible", "coupe", "hatchback", "minivan", "sedan", "suv", "truck", "van", "wagon"]
 
         # Extract the prediction results
         index_max_prob = np.argmax(prediction[0])
@@ -120,3 +120,4 @@ async def predict(image: UploadFile):
     except Exception as e:
 
         return JSONResponse(content={"error": str(e), "status": "500"})
+        
