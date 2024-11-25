@@ -384,10 +384,10 @@ nano .env
 ```
 
 ```bash
-WORKSPACE_NAME="mr-level-05-fsd-mission-01-ai-ml"
-SUBSCRIPTION_ID="27dfa5db-72e7-41cc-8e68-be3fd4e7ad01"
-RESOURCE_GROUP="mr-level-05-fsd-mission-01-ai-ml"
-LOCATION="australiaeast"
+WORKSPACE_NAME="..."
+SUBSCRIPTION_ID="..."
+RESOURCE_GROUP="..."
+LOCATION="..."
 
 ACR_NAME="astrotope"
 ACR_RESOURCE_GROUP="mr-level-05-fsd-cr-group"
